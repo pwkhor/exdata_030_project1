@@ -20,6 +20,7 @@ newdata4$Sub_metering_2=as.numeric(newdata4$Sub_metering_2)
 newdata4$Sub_metering_3=as.numeric(newdata4$Sub_metering_3)
 
 # Plot only 1 graph
+par(bg="white")
 par(mfrow=c(1,1))
 
 # Plot 1

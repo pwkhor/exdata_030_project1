@@ -20,6 +20,7 @@ newdata4$Sub_metering_2=as.numeric(newdata4$Sub_metering_2)
 newdata4$Sub_metering_3=as.numeric(newdata4$Sub_metering_3)
 
 # Plot 2 rows by 2 columns, plots will go by row first
+par(bg="white")
 par(mfrow=c(2,2))
 
 # Plot 4a == Plot 2
